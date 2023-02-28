@@ -1,6 +1,6 @@
 <?php $makanan = array("Rawon","Gado-gado", "Rendang", "Soto", "Sate", "Papeda");?>
 <div class="container" id="list">
-    <div class="row">
+    <div class="row ms-5">
     <?php for($i=0; $i<6; $i++) {?>
         <div class="card m-5" style="width: 18rem;">
             <img src="assets/<?php echo $i + 150?>.jpg" class="card-img-top" alt="makanan" width=100px height=250px>
